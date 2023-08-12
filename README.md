@@ -32,7 +32,8 @@ our dataset can be found [here](http://www.dluticcd.com/).
 
 * torchvision==0.9.0
 
-#### You can also use our Dockerfile to create a docker image with all the necessary tools. Downlaod our [Dockerfile](https://pan.baidu.com/s/1L8QyWTNK1JKdimNwLYI1uQ) (password: seen). To build the docker image run: ```docker load -i SEEN.tar```
+#### You can also use our Dockerfile to create a docker image with all the necessary tools. Downlaod our [Dockerfile](https://pan.baidu.com/s/1L8QyWTNK1JKdimNwLYI1uQ) (password: seen). 
+To build the docker image run: ```docker load -i SEEN.tar```
 
 ## Training
 
