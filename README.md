@@ -3,9 +3,9 @@
 # In the Blink of an Eye: Event-based Emotion Recognition
 Haiwei Zhang, [Jiqing Zhang](https://zhangjiqing.com), [Bo Dong](https://dongshuhao.github.io/), Pieter peers, Wenwei Wu, Xiaopeng Wei, Felix Heide, [Xin Yang](https://xinyangdut.github.io/)
 
-[[paper](https://doi.org/10.1145/3588432.3591511) [[dataset](http://www.dluticcd.com/)]
+[[paper](https://doi.org/10.1145/3588432.3591511)] [[dataset](http://www.dluticcd.com/)]
 
-<img width="100%" src="https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognition/blob/main/img/introduce.png"></a>
+<img width="100%" src="https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognition/tree/main/img/introduce.png"></a>
 Demonstration of a wearable single-eye emotion recognition prototype system consisting with a bio-inspired event-based camera (DAVIS346) and a low-power NVIDIA Jetson TX2 computing device. Event-based cameras simultaneously provide intensity and corresponding events, which we input to a newly designed lightweight Spiking Eye Emotion Network (SEEN) to effectively extract and combine spatial and temporal cues for emotion recognition. Given a sequence, SEEN takes the start and end intensity frames (green boxes) along with $n$ intermediate event frames (red boxes) as input. Our prototype system consistently recognizes emotions based on single-eye areas under different lighting conditions at $30$ FPS. 
 
 ## Abstract
@@ -14,7 +14,7 @@ We introduce a wearable single-eye emotion recognition device and a real-time ap
 ## our dataset SEE
 
 To address this lack of training data for event-based emotion recognition, we collect a new Single-eye Event-based Emotion (SEE) dataset;  SEE contains data from 111 volunteers captured with a DAVIS346 event-based camera placed in front of the right eye and mounted on a helmet; SEE contains videos of 7 emotions under four different lighting conditions: normal, overexposure, low-light, and high dynamic range (HDR) (Figure 3(a)). The average video length ranges from 18 to 131 frames, with a mean frame number of 53.5 and a standard deviation of 15.2 frames, reflecting the differences in the duration of emotions between subjects. In total, SEE contains 2, 405/128, 712 sequences/frames with corresponding raw events for a total length of 71.5 minutes (Figure 3(b)), which we split in 1, 638 and 767 sequences for training and testing, respectively.
-<img width="100%" src="https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognition/blob/main/img/dataset.png"></a>
+<img width="100%" src="https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognition/tree/main/img/dataset.png"></a>
 
 our dataset can be found [here](http://www.dluticcd.com/).
 
