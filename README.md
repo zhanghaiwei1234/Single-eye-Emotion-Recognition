@@ -29,7 +29,8 @@ load_image_id /bin/bash ```
 
 ## About coda
 
-[train.py]: You can use train.py to strat train our model. In train.py, You can choose which epoch to start inference the effects of the network at line 247.
+#### [train.py]
+You can use train.py to strat train our model. In train.py, You can choose which epoch to start inference the effects of the network at line 247.
 
 [inference.py]: if you want inference the effects of the network while training, train.py will call inference.py to test.
 
