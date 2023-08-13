@@ -17,8 +17,7 @@ To address this lack of training data for event-based emotion recognition, we co
 Our dataset can be found [here](http://www.dluticcd.com/). Our dataset detail instructions can be find at [here](https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognition/blob/main/Dataset_Instructions.md)
 
 ## Requirements
-
-#### You can use our Dockerfile to create a docker image with all the necessary tools. Download our [Dockerfile](https://pan.baidu.com/s/1L8QyWTNK1JKdimNwLYI1uQ) (password: seen). 
+You can use our Dockerfile to create a docker image with all the necessary tools. Download our [Dockerfile](https://pan.baidu.com/s/1L8QyWTNK1JKdimNwLYI1uQ) (password: seen). 
 1. To build the docker image run: ```docker load -i SEEN.tar```
 
 2.Create a container run: ```docker run --gpus all -dit --name your_container_name -v File_path_to_be_mounted -p 7000:80 --shm-size=10G 
@@ -27,6 +26,10 @@ load_image_id /bin/bash ```
 3. Start container run: ```docker start your_container_name```
 
 4. Entry container run: ```sudo docker exec -it your_container_name bash```
+
+## About coda
+
+
 
 ## Training
 
