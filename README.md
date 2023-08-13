@@ -35,11 +35,14 @@ You can use train.py to strat train our model. In train.py, You can choose which
 #### [inference.py]
 if you want inference the effects of the network while training, train.py will call inference.py to test.
 
-#### [evaluation.py]: You can use evaluation.py to test the model by modifying the saved_model_path with opt.test_epoch in /code/opts.py.
+#### [evaluation.py]
+You can use evaluation.py to test the model by modifying the saved_model_path with opt.test_epoch in /code/opts.py.
 
-[model_snn_cnn.py]: Our model.
+#### [model_snn_cnn.py]
+Our model.
 
-[opts.py]: You can configure the various parameters needed to set up the network operation.
+#### [opts.py]
+You can configure the various parameters needed to set up the network operation.
 
 ## Training
 
