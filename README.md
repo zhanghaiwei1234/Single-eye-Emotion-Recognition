@@ -29,7 +29,14 @@ load_image_id /bin/bash ```
 
 ## About coda
 
-
+[train.py]: You can use train.py to strat train our model. In train.py, You can choose which epoch to start inference the effects of the network at line 247.
+[inference.py]: if you want inference the effects of the network, train.py will call inference.py to test.
+[evaluation.py]: You can use evaluation.py to test the model by modifying the saved_model_path in /code/opts.py  opt.test_epoch
+[degree]: volunteer's highest educational degree
+[lighting-condition]: the lighting condition of the sequence
+[emotion]: the ground truth label of the sequence
+[length]: the length of the sequence in the number of frames
+[take#]: the sequence is the [take#]th sequence of the volunteer with [ID]
 
 ## Training
 
